@@ -1,0 +1,98 @@
+body {background-color: #FFEAC2;
+;}
+
+
+
+hr {color: black;
+ max-width: 1200px;}
+
+.intro {width: 100%; 
+    text-align: center; 
+    color: #330000; 
+    font-size: 30px; 
+    font-weight: 400; 
+    max-width: 1100px;
+    margin-top: 32px;
+    padding-bottom: 10px;
+}
+
+.title-box {
+    max-width: 1100px;
+    font-size: 25px;
+    background-color:#68B79B;
+    padding: 10px;
+    animation-duration: 4s;
+    animation-delay: 2s;}
+
+.money-png {
+    max-width: 10%;
+}
+
+.first-things-first {
+    max-width: 500px;
+    font-size: 70px;
+    position: relative;
+    float:right;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+}
+
+.the-first-cafe {
+    max-width: 1200px;
+    font-size: 25px;
+   position:relative;
+   
+}
+
+.oatmeal {
+    width: 30%;
+    float: left;
+    padding-left: 150px;
+    padding-right: 100px;
+    border-radius: 50%;
+    position: relative;
+    
+}
+
+.plants { 
+    padding-left: 250px ;
+    border-radius: 30%;
+    padding-top: 30px;
+
+}
+
+.matcha {
+    padding-right: 150px;
+   
+}
+
+.outdoor-area{
+    padding-left: 100px;
+    float: left;
+    border-radius: 30%;
+} 
+
+.onto-the-next-one {
+    font-size: 25px;
+    max-width: 1200px;
+    padding-top: 30px;
+
+}
+
+.NYULIBRARY {
+    font-size: 25px;
+    max-width: 1000px;
+    padding-top: 30px;
+
+}
+
+.marquee {
+    font-size: 50px;
+}
+
+
+
+
