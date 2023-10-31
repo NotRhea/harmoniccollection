@@ -1,0 +1,58 @@
+.navbar {
+    overflow: hidden;
+    background-color: #ddd;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family:  'Anton', sans-serif;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding:  20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:  'Anton', sans-serif;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color:}
+
+    .navbar h2 { margin-left: 10px;
+    font-size: 40px;
+    
+color: #421515;}
+
+    .intro {
+        padding-top: 120px;
+        font-size: 25px;
+        font-family:"martian mono", monospace;
+        color: #ddd;
+        max-width: 1100px;
+        
+    }
+
+    body {
+        background-color: #421515;
+
+    }
+
+    p {
+        color: #ddd;
+        font-family:"martian mono", monospace ;
+        font-size: 20px;
+        max-width: 1250px;
+    }
+
+h2 {
+    color: #ddd;
+    font-size:40px ;
+    font-family:"martian mono", monospace ;
+
+}
+
+img { border-radius: 20%;}
