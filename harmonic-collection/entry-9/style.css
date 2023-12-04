@@ -1,0 +1,125 @@
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1); /* More transparent black background */
+    padding: 15px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+nav::after {
+    content: "";
+    display: block;
+    height: 2px; /* Height of the black line */
+    background-color: black;
+    margin-top: 10px; /* Adjust the margin as needed */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav h1 {
+    padding-left: 600px;
+    font-size: 35px;
+    color: antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #040000;
+    font-family:"martian mono", monospace;
+}
+
+.tatami-container {
+
+    padding-top: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    perspective: 1000px;
+    max-width: 900px;
+    padding-left: 100px;
+}
+
+.tatami-card {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.tatami-card:hover {
+    transform: rotateY(180deg);
+}
+
+.tatami-card .front,
+.tatami-card .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 1px;
+    background-color: #88ba7c;
+    font-size: 16px;
+    border: solid #040000;
+}
+
+.tatami-card .back {
+    transform: rotateY(180deg);
+}
+
+p {max-width: 100px;}
+
+.intro {
+    color: antiquewhite;
+    max-width: 500px;
+    padding-left: 100px;
+    padding-top: 600px;
+
+}
+
+.Flip {
+    color: #88ba7c;
+    padding-right: 100px;
+    
+}
+
+.intro {
+    position: relative;
+    display: inline-block;
+}
+
+.hover-text {
+    font-size: 24px;
+    position: relative;
+    z-index: 2;
+}
+
+.hover-gif {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.intro:hover .hover-gif {
+    opacity: 0.7;
+}
