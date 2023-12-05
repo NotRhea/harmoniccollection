@@ -1,0 +1,134 @@
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1); /* More transparent black background */
+  padding: 15px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+nav::after {
+  content: "";
+  display: block;
+  height: 2px; /* Height of the black line */
+  background-color: black;
+  margin-top: 10px; /* Adjust the margin as needed */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+
+
+
+nav h1 { padding-left: 600px;
+font-size: 35px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+padding-right: 600px;
+color: aliceblue;}
+
+#home {padding-left: 20px;}
+#about {padding-left: 20px;}
+
+
+
+body {background-color: rgb(26, 26, 26);}
+
+.about-link { color: rgb(254, 254, 254);}
+
+
+.marquee {color: aliceblue;
+ padding-top: 100PX;}
+
+h2 {font-size: 30px;
+color: aliceblue;
+}
+h3
+
+pre {color: aliceblue;}
+
+.rating {color: aliceblue;}
+
+.underline {color: aliceblue;}
+
+.intro { color: aliceblue;
+font-size: 20px;
+max-width: 900px;}
+
+.ambiance-box {background-color : pink;
+     width : 900px;
+     max-width: 900px;
+     border: 15px solid rgb(255, 255, 255);
+     padding: 50px;
+     margin:50px;
+     color: black;
+     font-size: 20px;
+     font-family: "martian mono", monospace;
+     } 
+
+     .ambiance-img
+
+     .intro {color: aliceblue;
+        margin: 50px;
+        font-size: 15px;
+        max-width: 900px;
+     }
+
+     .menu {background-color : pink;
+        width : 900px;
+        max-width: 900PX;
+        border: 15px solid rgb(255, 255, 255);
+        padding: 50px;
+        margin:50px;
+        color: black;
+        font-size: 20px;
+        font-family: font-family: "martian mono", monospace;}
+
+        .food {
+            display: flex;
+            justify-content: space-between;
+          }
+          
+          .foood {
+            width: 50%;
+            padding-right:0px;
+          }
+          
+          .food-image {
+            width: 50%;
+            padding-right: 0px;
+            margin-right: 0px;
+            
+          }
+          
+          .food-image-text {  
+            font-size: 20px;
+            font-family: "martian mono", monospace;;
+            width: 80%;
+            border: 15 px solid aliceblue;
+            color:black;
+            background-color: pink;
+            padding: 50px;
+            margin-right:50px;
+            ;
+          }
+        
+          .overall-experience {background-color : pink;
+            width : 900px;
+            max-width: 900PX;
+            border: 15px solid rgb(255, 255, 255);
+            padding: 50px;
+            margin:50px;
+            color: black;
+            font-size: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .marquee-two { color: aliceblue;}
+        
+
